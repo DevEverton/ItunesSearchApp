@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		50BCC61B1FEADF95008A953D /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50BCC61A1FEADF95008A953D /* Artist.swift */; };
+		50BCC61D1FEAE203008A953D /* Genre.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50BCC61C1FEAE203008A953D /* Genre.swift */; };
+		50BCC61F1FEAE2CE008A953D /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50BCC61E1FEAE2CE008A953D /* Album.swift */; };
+		50BCC6211FEAED8A008A953D /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50BCC6201FEAED8A008A953D /* Song.swift */; };
+		50BCC6231FEAF39F008A953D /* Stub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50BCC6221FEAF39F008A953D /* Stub.swift */; };
 		50D161341FEADDA600DE6122 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D161331FEADDA600DE6122 /* AppDelegate.swift */; };
 		50D161361FEADDA600DE6122 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D161351FEADDA600DE6122 /* ViewController.swift */; };
 		50D161391FEADDA600DE6122 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50D161371FEADDA600DE6122 /* Main.storyboard */; };
@@ -15,6 +20,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		50BCC61A1FEADF95008A953D /* Artist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
+		50BCC61C1FEAE203008A953D /* Genre.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Genre.swift; sourceTree = "<group>"; };
+		50BCC61E1FEAE2CE008A953D /* Album.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
+		50BCC6201FEAED8A008A953D /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		50BCC6221FEAF39F008A953D /* Stub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stub.swift; sourceTree = "<group>"; };
 		50D161301FEADDA600DE6122 /* ItunesSearchApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ItunesSearchApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50D161331FEADDA600DE6122 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		50D161351FEADDA600DE6122 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +64,9 @@
 		50D161321FEADDA600DE6122 /* ItunesSearchApp */ = {
 			isa = PBXGroup;
 			children = (
+				50D161471FEADDD300DE6122 /* Models */,
+				50D161461FEADDCD00DE6122 /* Views */,
+				50D161451FEADDC000DE6122 /* Controllers */,
 				50D161331FEADDA600DE6122 /* AppDelegate.swift */,
 				50D161351FEADDA600DE6122 /* ViewController.swift */,
 				50D161371FEADDA600DE6122 /* Main.storyboard */,
@@ -62,6 +75,32 @@
 				50D1613F1FEADDA600DE6122 /* Info.plist */,
 			);
 			path = ItunesSearchApp;
+			sourceTree = "<group>";
+		};
+		50D161451FEADDC000DE6122 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		50D161461FEADDCD00DE6122 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		50D161471FEADDD300DE6122 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				50BCC61A1FEADF95008A953D /* Artist.swift */,
+				50BCC61C1FEAE203008A953D /* Genre.swift */,
+				50BCC61E1FEAE2CE008A953D /* Album.swift */,
+				50BCC6201FEAED8A008A953D /* Song.swift */,
+				50BCC6221FEAF39F008A953D /* Stub.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,8 +175,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50BCC6211FEAED8A008A953D /* Song.swift in Sources */,
+				50BCC61B1FEADF95008A953D /* Artist.swift in Sources */,
 				50D161361FEADDA600DE6122 /* ViewController.swift in Sources */,
 				50D161341FEADDA600DE6122 /* AppDelegate.swift in Sources */,
+				50BCC61D1FEAE203008A953D /* Genre.swift in Sources */,
+				50BCC61F1FEAE2CE008A953D /* Album.swift in Sources */,
+				50BCC6231FEAF39F008A953D /* Stub.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
